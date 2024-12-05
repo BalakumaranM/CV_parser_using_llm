@@ -1,0 +1,35 @@
+
+
+[1m> Entering new PromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+[32m2024-11-25 19:06:26.104[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m80[0m - [1m{'$defs': {'Education': {'properties': {'college': {'description': 'Name of the institution.', 'title': 'College', 'type': 'string'}, 'degree': {'description': 'Degree obtained.', 'title': 'Degree', 'type': 'string'}, 'cgpa': {'description': 'Cumulative Grade Point Average or equivalent.', 'title': 'Cgpa', 'type': 'string'}, 'years': {'description': 'Duration of study or graduation year.', 'title': 'Years', 'type': 'string'}}, 'required': ['college', 'degree', 'cgpa', 'years'], 'title': 'Education', 'type': 'object'}, 'Experience': {'properties': {'company': {'description': 'Name of the company.', 'title': 'Company', 'type': 'string'}, 'years_of_experience': {'description': 'Duration of experience in years.', 'title': 'Years Of Experience', 'type': 'string'}, 'works_done': {'description': 'Summary of work responsibilities or achievements.', 'title': 'Works Done', 'type': 'string'}}, 'required': ['company', 'years_of_experience', 'works_done'], 'title': 'Experience', 'type': 'object'}}, 'properties': {'name': {'description': 'Name of the person in CV.', 'title': 'Name', 'type': 'string'}, 'email': {'description': 'Email ID of the person in CV.', 'title': 'Email', 'type': 'string'}, 'skills': {'items': {'type': 'string'}, 'title': 'Skills', 'type': 'array'}, 'experience': {'items': {'$ref': '#/$defs/Experience'}, 'title': 'Experience', 'type': 'array'}, 'education': {'items': {'$ref': '#/$defs/Education'}, 'title': 'Education', 'type': 'array'}, 'mobile_number': {'description': 'Mobile Number of the person given in CV.', 'title': 'Mobile Number', 'type': 'string'}}, 'required': ['name', 'email', 'skills', 'experience', 'education', 'mobile_number']}[0m
+
+
+[1m> Entering new PromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+[32m2024-11-25 19:12:01.695[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m79[0m - [1m{'$defs': {'Education': {'properties': {'college': {'description': 'Name of the institution.', 'title': 'College', 'type': 'string'}, 'degree': {'description': 'Degree obtained.', 'title': 'Degree', 'type': 'string'}, 'cgpa': {'description': 'Cumulative Grade Point Average or equivalent.', 'title': 'Cgpa', 'type': 'string'}, 'years': {'description': 'Duration of study or graduation year.', 'title': 'Years', 'type': 'string'}}, 'required': ['college', 'degree', 'cgpa', 'years'], 'title': 'Education', 'type': 'object'}, 'Experience': {'properties': {'company': {'description': 'Name of the company.', 'title': 'Company', 'type': 'string'}, 'years_of_experience': {'description': 'Duration of experience in years.', 'title': 'Years Of Experience', 'type': 'string'}, 'works_done': {'description': 'Summary of work responsibilities or achievements.', 'title': 'Works Done', 'type': 'string'}}, 'required': ['company', 'years_of_experience', 'works_done'], 'title': 'Experience', 'type': 'object'}}, 'properties': {'name': {'description': 'Name of the person in cv.', 'title': 'Name', 'type': 'string'}, 'email': {'description': 'Email ID of the person in cv.', 'title': 'Email', 'type': 'string'}, 'skills': {'items': {'properties': {'programming_languages': {'description': 'Programming languages.', 'title': 'Programming Languages', 'type': 'array'}, 'data_structures_and_algorithms': {'description': 'Data structures and algorithms.', 'title': 'Data Structures And Algorithms', 'type': 'array'}, 'database': {'description': 'Database.', 'title': 'Database', 'type': 'array'}, 'problem_solving': {'description': 'Problem solving.', 'title': 'Problem Solving', 'type': 'array'}}, 'required': ['programming_languages', 'data_structures_and_algorithms', 'database', 'problem_solving'], 'title': 'Skills', 'type': 'object'}, 'title': 'Skills', 'type': 'array'}, 'experience': {'items': {'$ref': '#/$defs/Experience'}, 'title': 'Experience', 'type': 'array'}, 'education': {'items': {'$ref': '#/$defs/Education'}, 'title': 'Education', 'type': 'array'}, 'mobile_number': {'description': 'Mobile Number of the person given in the cv.', 'title': 'Mobile Number', 'type': 'string'}}, 'required': ['name', 'email', 'skills', 'experience', 'education', 'mobile_number']}[0m
+
+
+[1m> Entering new PromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+[32m2024-11-25 19:16:38.017[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m79[0m - [1m{'$defs': {'Education': {'properties': {'college': {'description': 'Name of the institution.', 'title': 'College', 'type': 'string'}, 'degree': {'description': 'Degree obtained.', 'title': 'Degree', 'type': 'string'}, 'cgpa': {'description': 'Cumulative Grade Point Average or equivalent.', 'title': 'Cgpa', 'type': 'string'}, 'years': {'description': 'Duration of study or graduation year.', 'title': 'Years', 'type': 'string'}}, 'required': ['college', 'degree', 'cgpa', 'years'], 'title': 'Education', 'type': 'object'}, 'Experience': {'properties': {'company': {'description': 'Name of the company.', 'title': 'Company', 'type': 'string'}, 'years_of_experience': {'description': 'Duration of experience in years.', 'title': 'Years Of Experience', 'type': 'string'}, 'works_done': {'description': 'Summary of work responsibilities or achievements.', 'title': 'Works Done', 'type': 'string'}}, 'required': ['company', 'years_of_experience', 'works_done'], 'title': 'Experience', 'type': 'object'}}, 'properties': {'name': {'description': 'Name of the person in cv.', 'title': 'Name', 'type': 'string'}, 'email': {'description': 'Email ID of the person in cv.', 'title': 'Email', 'type': 'string'}, 'skills': {'items': {'properties': {'programming_languages': {'description': 'Programming languages.', 'title': 'Programming Languages', 'type': 'array'}, 'data_structures_and_algorithms': {'description': 'Data structures and algorithms.', 'title': 'Data Structures And Algorithms', 'type': 'array'}, 'database': {'description': 'Database.', 'title': 'Database', 'type': 'array'}, 'problem_solving': {'description': 'Problem solving.', 'title': 'Problem Solving', 'type': 'string'}, 'technical_skills': {'description': 'Technical skills.', 'title': 'Technical Skills', 'type': 'object'}}, 'required': ['programming_languages', 'data_structures_and_algorithms', 'database'], 'title': 'Skills', 'type': 'array'}, 'title': 'Skills', 'type': 'object'}, 'experience': {'items': {'$ref': '#/$defs/Experience'}, 'title': 'Experience', 'type': 'array'}, 'education': {'items': {'$ref': '#/$defs/Education'}, 'title': 'Education', 'type': 'array'}, 'mobile_number': {'description': 'Mobile Number of the person given in the cv.', 'title': 'Mobile Number', 'type': 'string'}}, 'required': ['name', 'email', 'skills', 'experience', 'education', 'mobile_number']}[0m
+
+
+[1m> Entering new PromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
